@@ -70,6 +70,8 @@ jobs:
             pgo: true
           - platform: macos-arm64
             runner: macos-15
+          - platform: macos-x86_64
+            runner: macos-15-intel
 
     steps:
       - name: Check out source
